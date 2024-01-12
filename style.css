@@ -1,0 +1,177 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #16213E;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1%;
+}
+
+header li {
+    display: inline;
+    font-size: 180%;
+    margin-right: 1%;
+}
+
+ul.icones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones li {
+    display: inline;
+    padding: 0.8em;
+    font-size: 180%;
+    margin-right: 1%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 3% 0% 3%;
+}
+
+.sobre {
+    flex: 1;
+}
+
+.titulo-sobre {
+    color: #DBC4F0;
+    text-transform: capitalize;
+    font-size: 4em;
+}
+
+.cumprimento {
+    color: #45FFCA;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.subtitulo-sobre {
+    color: #A291B2;
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.sobre-mim {
+    color: #A291B2;
+    padding: 1%;
+    font-size: 1.3em;
+}
+
+.sobre i {
+    font-size: 0.8em;
+    padding: 3%;
+    color: #45ffca;
+}
+
+.sobre i:hover {
+    color: #396456;
+}
+
+.ondas-box {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+}
+
+.onda {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/onda.png);
+    background-size: 1000px 100px;
+    animation: ondaAnimada 5s ease-in-out infinite alternate;
+}
+
+@keyframes ondaAnimada {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10%);
+    }
+}
+
+#onda1 {
+    z-index: 1000;
+    opacity: 1;
+    background-position-x: 400vw;
+}
+
+#onda2 {
+    z-index: 999;
+    opacity: 0.5;
+    background-position-x: 300vw;
+}
+
+#onda3 {
+    z-index: 998;
+    opacity: 0.2;
+    background-position-x: 200vw;
+}
+
+#onda4 {
+    z-index: 997;
+    opacity: 0.8;
+    background-position-x: 10vw;
+}
+
+.projetos {
+    box-shadow: -2px -1px 1px #8AAABD;
+}
+
+.subtitulo-projeto {
+    color: #45FFCA;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    padding: 2% 1% 5% 5%;
+}
+
+.projetos li {
+    color: #DBC4F0;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+li a {
+    color: #DBC4F0;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #9489cd;
+}
+
+footer {
+    padding: 1vw 0 8vw 0;
+    background-color: #ffffff;
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+    color: #16213E;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.7em;
+    }
+    header li {
+        padding-right: 0.5em;
+    }
+    .sobre,
+    .projetos {
+        flex: 100%;
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+}
