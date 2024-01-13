@@ -1,5 +1,5 @@
 
-![foto do portifolio](https://github.com/gcbruna/portfolio/assets/115025421/a1650c62-3e62-4d34-84bb-f951e2dc897f)
+![foto do portifolio](https://github.com/gcbruna/portfolio/assets/115025421/fb1ad33b-0862-4d03-a7a6-f921cf58ab41)
 # Portfólio de Bruna Coelho
 
 Olá, sou uma desenvolvedora web apaixonada por criar experiências incríveis na web.
