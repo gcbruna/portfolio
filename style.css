@@ -125,9 +125,10 @@ ul.icones {
 }
 
 .projetos {
-    font-family: monospace;
-    box-shadow: -3px -3px 10px #8aaabd;
     border-radius: 16px;
+    box-shadow: -3px -3px 10px #8aaabd;
+    font-family: monospace;
+    margin: 2%;
     padding: 2%;
 }
 
