@@ -55,7 +55,7 @@ ul.icones {
 
 .subtitulo-sobre {
     color: #A291B2;
-    text-transform: capitalize;
+    font-family: monospace;
     font-size: 3em;
 }
 
@@ -125,20 +125,23 @@ ul.icones {
 }
 
 .projetos {
-    box-shadow: -2px -1px 1px #8AAABD;
+    font-family: monospace;
+    box-shadow: -3px -3px 10px #8aaabd;
+    border-radius: 16px;
+    padding: 2%;
 }
 
 .subtitulo-projeto {
     color: #45FFCA;
-    font-size: 1.3em;
+    font-size: 2em;
     text-transform: capitalize;
-    padding: 2% 1% 5% 5%;
+    padding: 2% 1%;
 }
 
 .projetos li {
     color: #DBC4F0;
     text-transform: capitalize;
-    font-size: 1.1em;
+    font-size: 1.5em;
     padding-left: 1em;
     margin-bottom: 1em;
 }
@@ -156,6 +159,7 @@ footer {
     padding: 1vw 0 8vw 0;
     background-color: #ffffff;
     font-size: 0.8em;
+    font-family: monospace;
     text-align: center;
     font-style: italic;
     color: #16213E;
