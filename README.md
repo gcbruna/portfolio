@@ -19,3 +19,4 @@ Demonstrar meu trabalho e compartilhar meu conhecimento em desenvolvimento web.
 - [E-mail](mailto:bruhbg55@gmail.com)
 
 Este portfólio está em constante atualização. Fique à vontade para explorar meus projetos e entrar em contato comigo para oportunidades de colaboração.
+https://gcbruna.github.io/portfolio/
